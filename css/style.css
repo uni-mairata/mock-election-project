@@ -8,7 +8,7 @@ html {
   /* CSS HEX */
   --eerie-black: #1c1d1cff;
   --denim-blue: #2d44aeff;
-  --indian-red: #D8031C; /*   #e35760ff */
+  --indian-red: #D8031C;
   --firebrick: #7D0A18;
 
   scroll-behavior: smooth;
@@ -49,14 +49,6 @@ p {
 
 .about-space {
   margin-top: 50px;
-}
-
-.platform-icons {
-/*   color: var(--indian-red); */
-}
-
-.platform-icons:hover {
-/*   color: var(--denim-blue); */
 }
 
 .platform-title {
@@ -1440,7 +1432,7 @@ a:focus {
   text-decoration: none;
   color: #fff;
   line-height: 65px;
-  font-size: 2.5rem;
+  font-size: 2rem;
   box-shadow: inset 0 0 0 0 var(--indian-red);
   margin: 0 -.25rem;
   padding: 0 .25rem;
@@ -1707,7 +1699,6 @@ a:focus {
           z-index: 1000000;
             margin: 60px auto;
             font-size: 10px;
-/*             position: relative; */
             text-indent: -9999em;
             border-top: 1.1em solid rgba(255, 255, 255, 0.2);
             border-right: 1.1em solid rgba(255, 255, 255, 0.2);
