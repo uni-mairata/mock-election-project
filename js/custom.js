@@ -88,3 +88,23 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+$('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
+$('.play_btn').hide();
+$('#our-platform').hide();
+$('.nav').hide();
+
+$(window).on('load', function(){
+  setTimeout(removeLoader, 0); //wait for page load PLUS two seconds.
+});
+
+function removeLoader(){
+    $( "#loadingDiv" ).fadeOut(500, function() {
+      // fadeOut complete. Remove the loading div
+      $( "#loadingDiv" ).remove(); //makes page more lightweight 
+  });
+  $('.play_btn').show();
+  $('#our-platform').show();
+  $('.nav').show();
+}
