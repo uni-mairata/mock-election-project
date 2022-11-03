@@ -1,7 +1,16 @@
-@media (max-width: 1120px) {
-}
-
 @media (max-width: 992px) {
+  .detail-box {
+    margin-top: -15px;
+  }
+
+  .platform-button {
+    display: none;
+  }
+
+  .platform-play-button {
+    display: none;
+  }
+  
   .custom_menu-btn {
     display: none;
   }
